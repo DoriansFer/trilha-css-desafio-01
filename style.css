@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('assets/images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.banner .banner-content {
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, 0.344);
+    border-radius: 50%;
+    height: 230px;
+    width: 260px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.banner h1 {
+    color: rgb(32, 159, 170);
+    text-transform: uppercase;
+}
+
+.banner .banner-content button {
+    color: rgb(32, 159, 170);
+    background-color: rgba(49, 169, 221, 0);
+    margin-top: auto;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    padding: 10px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-image: linear-gradient(rgb(32, 159, 170), #1572B7);
+    border-image-slice: 10;
+}
+
+#course-content {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+
+#course-content .modules-list .module {
+    color: white;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    padding: 12px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    width: 500px;
+    border-radius: 90px;
+    margin: 0 auto 24px;
+
+}
+
+#course-content .modules-list .module span {
+    color: rgba(32, 160, 180);
+}
+
+#transform-world {
+    background-image: url('assets/images/woman-code.png');
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    height: 60px;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+#transform-world p {
+    text-transform: lowercase;
+    text-shadow: 3px 2px #33A8DB;
+    font-size: 2.5rem;
+    margin-left: -30%;
+    max-width: 200px;
+    margin-top: -10%;
+}
+
+#professional-challenges {
+    text-align: center;
+    width: auto;
+}
+
+#professional-challenges img {
+    margin: 30px 0;
+}
+
+#professional-challenges p {
+    font-size: 1.0rem;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.banner p {
+    font-size: 1.05rem;
+    margin: 16px 0 24px;
+
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgba(32, 160, 180);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
